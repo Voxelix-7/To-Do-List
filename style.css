@@ -1,0 +1,68 @@
+body {
+  font-family: 'Caveat', 'Comic Sans MS', cursive, sans-serif;
+  color: #FAFAFA;
+  /* I Googled this part */
+  background-image: url("https://f.top4top.io/p_3837qfvvd0.jpg");
+}
+.app {
+  margin: 10px;
+  padding: 50px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 44px;
+  border-radius: 30px;
+  background-color: #2d1a2e;
+  border: 4px solid #0c0c0d;
+}
+#taskInput {
+  width: 40%;
+  padding: 16px 32px;
+  outline: 2px solid #FAFAFA;
+  border: 1px solid #EE2689;
+  border-radius: 20px;
+  transition: 0.2s;
+}
+#taskInput:focus {
+  
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+}
+.appBtn {
+  padding: 12px 22px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: #EE2689;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+  transition: 0.3s;
+  color: #FAFAFA;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 16px;
+}
+.appBtn:hover {
+  background-color: #d5237a;
+  transform: translateY(2px);
+}
+.tasks {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+li::marker {
+  content: "☆ ";
+  color: #EE2689;
+  font-size: 1.2em;
+}
+li span {
+  display: block;
+  
+}
+.noteInput {
+  background-color: #2d1a2e;
+  border: none;
+}
+.noteInput:focus {
+  outline: none;
+}
