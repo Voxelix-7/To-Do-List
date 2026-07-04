@@ -40,5 +40,3 @@ taskBtn.addEventListener('click', function() {
     taskList.appendChild(li);
   taskInput.value = "";
 });
-
- 
